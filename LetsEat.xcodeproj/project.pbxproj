@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B11FB4A1BC92C90000BFC6C /* SCShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11FB491BC92C90000BFC6C /* SCShapeView.m */; settings = {ASSET_TAGS = (); }; };
 		FABFE1C41BC8E69600B0BE97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FABFE1C31BC8E69600B0BE97 /* main.m */; };
 		FABFE1C71BC8E69600B0BE97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FABFE1C61BC8E69600B0BE97 /* AppDelegate.m */; };
 		FABFE1CA1BC8E69600B0BE97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABFE1C91BC8E69600B0BE97 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B11FB481BC92C90000BFC6C /* SCShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCShapeView.h; sourceTree = "<group>"; };
+		3B11FB491BC92C90000BFC6C /* SCShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCShapeView.m; sourceTree = "<group>"; };
 		FABFE1BF1BC8E69600B0BE97 /* LetsEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABFE1C31BC8E69600B0BE97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FABFE1C51BC8E69600B0BE97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				FABFE1C61BC8E69600B0BE97 /* AppDelegate.m */,
 				FABFE1C81BC8E69600B0BE97 /* ViewController.h */,
 				FABFE1C91BC8E69600B0BE97 /* ViewController.m */,
+				3B11FB481BC92C90000BFC6C /* SCShapeView.h */,
+				3B11FB491BC92C90000BFC6C /* SCShapeView.m */,
 				FABFE1CB1BC8E69600B0BE97 /* Main.storyboard */,
 				FABFE1CE1BC8E69600B0BE97 /* Assets.xcassets */,
 				FABFE1D01BC8E69600B0BE97 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				FABFE1CA1BC8E69600B0BE97 /* ViewController.m in Sources */,
 				FABFE1C71BC8E69600B0BE97 /* AppDelegate.m in Sources */,
+				3B11FB4A1BC92C90000BFC6C /* SCShapeView.m in Sources */,
 				FABFE1C41BC8E69600B0BE97 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +507,7 @@
 				FABFE1EE1BC8E69600B0BE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FABFE1EF1BC8E69600B0BE97 /* Build configuration list for PBXNativeTarget "LetsEatTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				FABFE1F11BC8E69600B0BE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FABFE1F21BC8E69600B0BE97 /* Build configuration list for PBXNativeTarget "LetsEatUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				FABFE1F41BC8E69600B0BE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
